@@ -6,7 +6,6 @@ extremidades(pessoa(_,_,_,_,IDADE,_),X) :- (nth0(0,X,pessoa(_,_,_,_,ID,_)),(ID\=
 extremidades(pessoa(_,_,_,_,IDADE,_),X) :- (nth0(3,X,pessoa(_,_,_,_,ID,_)),(ID\=20,ID\=21,ID\=22,ID\=23),member(pessoa(_,_,_,_,IDADE,4),X)).
 %idade(X,MEMBER) :- 
 
-pessoa(florianopolis,_,_,_,21,1).
 
 solucao(R) :- 
 X = [pessoa(_,_,_,_,_,1),pessoa(_,_,_,_,_,2),pessoa(_,_,_,_,_,3),pessoa(_,_,_,_,_,4)], 

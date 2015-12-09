@@ -5,8 +5,6 @@
 
     primo(lisa,Y). novamente o fato da repetição de irmaos influência na consulta.
 
-2 - anexo
-
 3 - a)
 itens_ate::Int-> [t] -> [t] 
 itens_ate 0 _  = [] 
@@ -34,6 +32,6 @@ pali e  = (head e) == (last e) && (pali $ init $ tail e)
 
 e)
 listDiv :: [Int]
-listDiv = divs [1 .. 10000]
-divs e = foldl x [] e
-x re u = re ++ (if mod u 3 == 0 && mod u 7 == 0 && mod u 11 == 0 then [u] else [])
+listDiv = div [1 .. 10000]
+div e = foldl x [] e
+u re u = re ++ (if mod u 3 == 0 && mod u 7 == 0 && mod u 11 == 0 then [u] else [])

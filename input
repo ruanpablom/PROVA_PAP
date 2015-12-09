@@ -5,7 +5,7 @@ primo(X,Y) :- filho(X,T,Z), filho(Y,A,B), (irmao(T,A);irmao(T,B);irmao(Z,A);irma
 tio(X,Y) :- filho(X,T,Z), (irmao(T,Y);irmao(Z,Y)).
 avo(X,Y) :- (pai(X,T),pai(T,Y)) ; (mae(X,J),pai(J,Y)).
 avoh(X,Y) :- (pai(X,T),mae(T,Y)) ; (mae(X,J),mae(J,Y)).
-antecessores(X,Y) :- pai(X,Y) ; mae(X,Y) ; tio(X,Y) ; avo(X,Y) ; avoh(X,Y).
+antecessores(X,Y) :- pai(X,Y) ; mae(X,Y) ; avo(X,Y) ; avoh(X,Y).
 filho(bart,homer,marge).
 filho(lisa,homer,marge).
 filho(maggie,homer,marge).
