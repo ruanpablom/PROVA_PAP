@@ -1,0 +1,9 @@
+1 - entrada em anexo
+    irmao(maggie,Y), ocorre repetição por maggie ser tanto irmã por parte de pai como por parte de mãe de lisa e bart e o programa verifica quem são os filhos de cada pessoa para estabelecer o parentesco de irmão.
+
+    antecessores(bart,Y). pelo fato de os irmãos por parte de pai e mão se repetirem, eles acabam se repetindo também nessa consulta.
+
+    primo(lisa,Y). novamente o fato da repetição de irmaos influência na consulta.
+
+3 - a) Retângulo perimetro = 2*altura + 2*comprimento 
+       Circulo perimetro = 2*pi*r     

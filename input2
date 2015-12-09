@@ -1,0 +1,8 @@
+%pessoa(naturalidade,cidade,curso,comida,idade,acento).
+
+X = [pessoa(_,_,_,_,_,1),pessoa(_,_,_,_,_,2),pessoa(_,_,_,_,_,3),pessoa(_,_,_,_,_,4)]. 
+aolado(Z,Y) :- nextto(Z,Y,X) ; nextto(Y,Z,X).
+pessoa(_,_,fisica,camarao,_,_).
+pessoa(joinvillense,_,_,_,_,3).
+pessoa(_,_,engenharia_civil,pizza,_,_).
+nextto(pessoa(_,_,_,_,23,_),member(Y,X)), pessoa().
